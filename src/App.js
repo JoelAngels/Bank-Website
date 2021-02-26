@@ -11,3 +11,4 @@ function App() {
 }
 
 export default App;
+// react is uni-direction(0ne direction) and angular is multi directional
