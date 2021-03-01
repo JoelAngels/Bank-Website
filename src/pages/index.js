@@ -8,6 +8,7 @@ import {
   homeObjectThree,
   homeObjectTwo,
 } from "../components/InfoSection/Data";
+import Services from "../components/Services";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjectOne} />
       <InfoSection {...homeObjectTwo} />
+      <Services />
       <InfoSection {...homeObjectThree} />
     </>
   );
