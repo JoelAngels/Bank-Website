@@ -9,13 +9,16 @@ import {
   Heading,
   Subtitle,
   BtnWrap,
+  Column2,
+  ImgWrap,
+  Img,
 } from "./InfoElements";
 import { Button } from "../ButtonElement";
 
 const InfoSection = () => {
   return (
     <>
-      <InfoContainer id={id}>
+      <InfoContainer>
         <InfoWrapper>
           <InfoRow>
             <Column1>
@@ -28,6 +31,11 @@ const InfoSection = () => {
                 </BtnWrap>
               </TextWrapper>
             </Column1>
+            <Column2>
+              <ImgWrap>
+                <Img />
+              </ImgWrap>
+            </Column2>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
