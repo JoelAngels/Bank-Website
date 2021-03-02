@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import {
   FooterContainer,
   FooterLinksWrapper,
@@ -58,36 +59,25 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/">Sagacity</SocialLogo>
-              <WebsiteRights>
-                Sagacity © {new Date().getFullYear()}
-                All rights reserved.
-                <SocialIcons>
-                  <SocialIconLink
-                    href="/"
-                    target="_blank"
-                    aria-label="Facebook"
-                  >
-                    <FaFacebook />
-                  </SocialIconLink>
-                  <SocialIconLink
-                    href="/"
-                    target="_blank"
-                    aria-label="Instagram"
-                  >
-                    <FaInstagram />
-                  </SocialIconLink>
-                  <SocialIconLink
-                    href="//https://www.linkedin.com/in/joel-angel-4b05141a3/"
-                    target="_blank"
-                    aria-label="Linkedin"
-                  >
-                    <FaLinkedin />
-                  </SocialIconLink>
-                  <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                    <FaTwitter />
-                  </SocialIconLink>
-                </SocialIcons>
-              </WebsiteRights>
+              <WebsiteRights>Sagacity © All rights reserved.</WebsiteRights>
+              <SocialIcons>
+                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                  <FaFacebook />
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                  <FaInstagram />
+                </SocialIconLink>
+                <SocialIconLink
+                  href="//https://www.linkedin.com/in/joel-angel-4b05141a3/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                >
+                  <FaLinkedin />
+                </SocialIconLink>
+                <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                  <FaTwitter />
+                </SocialIconLink>
+              </SocialIcons>
             </SocialMediaWrap>
           </SocialMedia>
         </FooterWrap>
