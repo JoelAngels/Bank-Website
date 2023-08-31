@@ -41,8 +41,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Okiki Amayo
-              {/* Emeretus */}
+              Emeretus
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

@@ -63,10 +63,9 @@ const Footer = () => {
           <SocialMedia>
             <SocialMediaWrap>
               <SocialLogo to="/" onClick={toggleHome}>
-                Okiki Amayo
-                {/* Sagacity */}
+                Emeretus
               </SocialLogo>
-              <WebsiteRights>Okiki Amayo © All rights reserved.</WebsiteRights>
+              <WebsiteRights>Emeretus © All rights reserved.</WebsiteRights>
               <SocialIcons>
                 <SocialIconLink>
                   <FaGithub
